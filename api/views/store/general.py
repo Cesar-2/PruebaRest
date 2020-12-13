@@ -38,7 +38,7 @@ class TiendaAPI(APIView):
             return Response({
                 "Code": "Brand_doesnt_exist",
                 "Detailled": "Brand doesn't exist in the data base",
-                "Error": "Marca no encontrada"
+                "Error": "Marca no fue encontrada"
             }, status=status.HTTP_404_NOT_FOUND)
 
         if Tienda.objects.filter(name=request.data["name"]):
