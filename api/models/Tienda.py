@@ -1,5 +1,4 @@
 from django.db import models
-from .Marca import Marca
 
 
 class Tienda(models.Model):
