@@ -31,13 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest-framework',
     'api',
 ]
 
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'pruebadb',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost'
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }

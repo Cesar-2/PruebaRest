@@ -1,3 +1,3 @@
-from .Tienda import TiendaAPI
-from .Marca import MarcaAPI
-from .Producto import ProductoAPI
+from .Tienda import Tienda
+from .Marca import Marca
+from .Producto import Producto

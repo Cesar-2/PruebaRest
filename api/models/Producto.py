@@ -1,14 +1,14 @@
 from django.db import models
 
 
-class ProductoAPI(models.Model):
+class Producto(models.Model):
     name = models.CharField("Nombre", max_length=200)
-    store = models.ForeignKey('Tienda', on_delete=models.CASCADE)
+    store = models.ForeignKey('api.Tienda', on_delete=models.CASCADE)
     image = models.CharField("Imagen", max_length=200)
-    price = models.CharField("Precio")
+    price = models.IntegerField("Precio")
 
 
-class Medadato:
+class Metadato:
     verbose_name = "Trato"
     verbose_name_plural = "Tratos"
 
