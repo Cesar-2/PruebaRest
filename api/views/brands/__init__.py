@@ -1,1 +1,1 @@
-from .general import MarcaAPI
+from .general import Marca
