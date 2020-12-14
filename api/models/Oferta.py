@@ -8,7 +8,7 @@ class Oferta(models.Model):
     price = models.IntegerField("Precio")
 
 
-class Metadato:
+class Metadata:
     verbose_name = "Trato"
     verbose_name_plural = "Tratos"
 

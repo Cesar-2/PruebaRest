@@ -6,7 +6,7 @@ class Marca(models.Model):
     logo = models.CharField("Logo", max_length=200)
 
 
-class Metadato:
+class Metadata:
     verbose_name = "Marca"
     verbose_name_plural = "Marcas"
 

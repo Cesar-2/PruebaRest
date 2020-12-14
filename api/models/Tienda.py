@@ -9,7 +9,7 @@ class Tienda(models.Model):
     address = models.CharField("Direccion", max_length=200)
 
 
-class Metadato:
+class Metadata:
     verbose_name = "Tienda"
     verbose_name_plural = "Tiendas"
 
